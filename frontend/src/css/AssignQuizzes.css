@@ -1,0 +1,60 @@
+
+/* Container style is set for the assign quiz page, setting out size, margin and padding */
+.assignQuizzesContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Heading style is set with font size, margin at the bottom, the color and text in the middle */
+.assignQuizzesHeader {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+/* Secondary container for the assign quiz function to be held inside the main page container */
+.assignQuizzesBody {
+  padding: 15px;
+  border: 2px solid #29a39d;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Text spacing of 16 pixels is set */
+.assignQuizzesTextSpacing {
+  margin-bottom: 16px;
+}
+
+/* Style for all buttons on the page is made */
+.assignQuizzesButton {
+  padding: 0.5rem 1.5rem;
+  background: #29a39d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+/* Style to slightly change the color of the button when hovered on to indicate selection */
+
+.assignQuizzesButton:hover {
+  background: #29a39d83;
+}
+
+/* Success message styling */
+.assignQuizzesSuccessMessage {
+  margin-top: 16px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #00000083;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
