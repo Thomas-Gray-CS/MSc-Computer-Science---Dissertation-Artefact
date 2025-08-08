@@ -1,4 +1,4 @@
-
+# DRF framework is imported so that the routing can be simply completed.
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
@@ -28,3 +28,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
 ]
+
