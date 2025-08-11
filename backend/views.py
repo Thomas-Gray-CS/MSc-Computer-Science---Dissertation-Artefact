@@ -106,7 +106,7 @@ class BKTViewSet(viewsets.ModelViewSet):
 
         # The "answer" value is taken by dividing value 1 by value 2.
         # The new p_known value is then calculated using the final part of the formula with the calculated 
-        # p_learned value. 
+        # p_answer value. 
 
         p_answer = top_value / bottom_value
         bkt.p_known = round(min(1.0, max(0.0, p_answer + (1 - p_answer) * bkt.p_will_learn)), 2)
@@ -378,4 +378,5 @@ class TeacherViewSet(viewsets.ModelViewSet):
             }
             result.append(class_info)
         return Response(result)
+
 
